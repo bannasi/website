@@ -1,0 +1,86 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.section-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#attendanceForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#attendanceForm button[type="submit"] {
+    margin-top: 10px;
+}
+
+#attendanceHistory ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#attendanceHistory button {
+    margin-top: 10px;
+}
+
+#calculateAttendanceForm form {
+    margin-bottom: 10px;
+}
+
+#attendanceSummary button {
+    margin-top: 10px;
+}
